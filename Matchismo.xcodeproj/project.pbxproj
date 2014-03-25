@@ -25,6 +25,7 @@
 		FA22970418DAC7AA004E9E26 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = FA22970318DAC7AA004E9E26 /* PlayingCard.m */; };
 		FA22970718DACE6F004E9E26 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = FA22970618DACE6F004E9E26 /* Deck.m */; };
 		FA22970A18DAD118004E9E26 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = FA22970918DAD118004E9E26 /* PlayingCardDeck.m */; };
+		FAE921BB18E0BF8B00BB3B7B /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE921BA18E0BF8B00BB3B7B /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		FA22970618DACE6F004E9E26 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 		FA22970818DAD118004E9E26 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
 		FA22970918DAD118004E9E26 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		FAE921B918E0BF8B00BB3B7B /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		FAE921BA18E0BF8B00BB3B7B /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 		FA22970118DAC631004E9E26 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FAE921B918E0BF8B00BB3B7B /* CardMatchingGame.h */,
+				FAE921BA18E0BF8B00BB3B7B /* CardMatchingGame.m */,
 				FA2296FE18DAC5DA004E9E26 /* Card.h */,
 				FA2296FF18DAC5DA004E9E26 /* Card.m */,
 				FA22970218DAC7AA004E9E26 /* PlayingCard.h */,
@@ -282,6 +287,7 @@
 				FA0C6E9318D8A7B700247C87 /* CardGameViewController.m in Sources */,
 				FA0C6E8918D8A7B700247C87 /* main.m in Sources */,
 				FA22970418DAC7AA004E9E26 /* PlayingCard.m in Sources */,
+				FAE921BB18E0BF8B00BB3B7B /* CardMatchingGame.m in Sources */,
 				FA22970A18DAD118004E9E26 /* PlayingCardDeck.m in Sources */,
 				FA22970718DACE6F004E9E26 /* Deck.m in Sources */,
 				FA22970018DAC5DA004E9E26 /* Card.m in Sources */,
